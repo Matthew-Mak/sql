@@ -143,6 +143,8 @@ CREATE TABLE comments (
 );
 
 CREATE TABLE likes (
+
+    
                        user_id INT NOT NULL,
                        post_id INT NOT NULL,
                        PRIMARY KEY (user_id, post_id),
